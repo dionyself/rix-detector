@@ -1,11 +1,17 @@
-# RIX Detector
-Yet another DIY metal detector.
+############
+RIX Detector
+############
+
+Another DIY metal detector?
+
+RIX Detector is a Powerful metal detector (Development in progress) that combinates awesome technnology with a simple design,
+
 
 .. image:: https://raw.githubusercontent.com/dionyself/rix-detector/master/images/rix_kicad_view.png
    :height: 100px
    :width: 200 px
    :scale: 50 %
-   :alt: alternate text
+   :alt: KiCad 3Dmodel
    :align: right
 
 .. |bitcoin| image:: https://raw.githubusercontent.com/dionyself/golang-cms/master/static/img/btttcc.png
@@ -23,6 +29,18 @@ Yet another DIY metal detector.
    :width: 200 px
    :alt: Donate with Paypal
    :target: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L4H5TUWZTZERS
+   
+***************
+Photos & Videos
+***************
+
+*************
+Documentation
+*************
+
+***********
+Contribute
+***********
 
 +------------------------------+
 | Donate to this project       |
