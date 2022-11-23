@@ -2,10 +2,18 @@
 RIX Detector
 ############
 
-Another DIY metal detector?
+Why another DIY metal detector?
 
-RIX Detector is a Powerful metal detector (Development in progress) that combinates awesome technnology with a simple design,
+RIX Detector is a Powerful metal detector (Development in progress) that combines awesome technology with a simple design.
+Hackable and easy to build using inexpensive components, It opens the doors to novices, 
+electronicians and detectorists who want to experiment or try new techniques.
 
+It is built using simple components (logic gates and other passive components) therefore making  simple changes like replacing a gate or a crystal results on interesting behaviour (check the documentation about #rixvariants).
+
+How does it word?
+RIX contains two oscillators (1 Xtal OSC + 1 Ring OSC), when the detector coil passes through a metal, the oscillator changes its frequency making the detection possible.
+
+Preview:
 
 .. image:: https://raw.githubusercontent.com/dionyself/rix-detector/master/images/rix_kicad_view.png
    :height: 100px
@@ -33,10 +41,12 @@ RIX Detector is a Powerful metal detector (Development in progress) that combina
 ***************
 Photos & Videos
 ***************
+<Link to media>
 
 *************
 Documentation
 *************
+<Link to documentation>
 
 ***********
 Contribute
