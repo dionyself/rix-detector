@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/dionys/workspaces/KiCad/rix-detector/rix/rix.kicad_sch</source>
-    <date>Mon 21 Nov 2022 03:11:10 PM EST</date>
+    <date>Wed 23 Nov 2022 10:49:33 PM AST</date>
     <tool>Eeschema 6.0.9-8da3e8f707~116~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -59,6 +59,42 @@
       <property name="Sheetfile" value="rix.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3f17bde1-e29b-48af-b56b-fbc7c1b8b892</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da50fb4b-c644-43fb-a05d-ce97ea950fe9</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee37840b-cfa9-4c7b-8c85-aa79f2f48f61</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76746194-1a3d-46fe-a6a1-0e75f9ab8db5</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rix.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9343f093-5c54-4859-a36f-91cdac74c1c3</tstamps>
     </comp>
     <comp ref="J1">
       <value>Barrel_Jack_Switch</value>
@@ -117,11 +153,11 @@
     <comp ref="RV1">
       <value>10K</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
-      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <libsource lib="Device" part="R_Potentiometer_MountingPin" description="Potentiometer with a mounting pin"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rix.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>52d8cfcb-e689-4beb-af08-5923969d2240</tstamps>
+      <tstamps>c34a95dd-e38b-468f-b2fd-d6dc37e0d307</tstamps>
     </comp>
     <comp ref="U1">
       <value>74LS04</value>
@@ -131,7 +167,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="rix.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa498c5d-6c5c-4a27-958c-0b9e620677c6 72464bd0-34a5-417c-88a3-81ce375989fe e6e8a611-4da4-4049-b681-b3c5fa16cba2 f2bc94d4-e90a-4f7e-9b86-2cebaf1fc427 a611cdf8-d9d0-4279-9036-79aadc64d80d bd7d1c2d-c3c0-496c-8094-823522e63070 0ae95f80-9625-4eae-be7e-f3f1936467e5</tstamps>
+      <tstamps>f2bc94d4-e90a-4f7e-9b86-2cebaf1fc427 e6e8a611-4da4-4049-b681-b3c5fa16cba2 a611cdf8-d9d0-4279-9036-79aadc64d80d aa498c5d-6c5c-4a27-958c-0b9e620677c6 72464bd0-34a5-417c-88a3-81ce375989fe bd7d1c2d-c3c0-496c-8094-823522e63070 0ae95f80-9625-4eae-be7e-f3f1936467e5</tstamps>
     </comp>
     <comp ref="U2">
       <value>L78L05_SOT89</value>
@@ -323,21 +359,37 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="R_Potentiometer">
-      <description>Potentiometer</description>
+    <libpart lib="Device" part="R_Potentiometer_MountingPin">
+      <description>Potentiometer with a mounting pin</description>
       <docs>~</docs>
       <footprints>
         <fp>Potentiometer*</fp>
       </footprints>
       <fields>
         <field name="Reference">RV</field>
-        <field name="Value">R_Potentiometer</field>
+        <field name="Value">R_Potentiometer_MountingPin</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Regulator_Linear" part="L78L05_SOT89">
@@ -369,6 +421,9 @@
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
     <library logical="Regulator_Linear">
       <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
     </library>
@@ -378,8 +433,13 @@
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J1" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="MP" pinfunction="MountPin" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
     </net>
@@ -423,8 +483,8 @@
     </net>
     <net code="10" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
     <net code="11" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1" pintype="passive"/>
@@ -436,8 +496,8 @@
       <node ref="U1" pin="10" pintype="output"/>
       <node ref="U1" pin="9" pintype="input"/>
     </net>
-    <net code="13" name="Net-(RV1-Pad1)">
-      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="13" name="Net-(RV1-Pad3)">
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U1" pin="6" pintype="output"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>

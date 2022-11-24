@@ -1,0 +1,16 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"C3","10nF","C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",-110.490000,-78.740000,0.000000,bottom
+"R1","1M","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",-109.220000,-83.820000,0.000000,bottom
+"C1","50v 10uF","CP_Radial_D5.0mm_P2.00mm",91.100000,-89.855112,90.000000,top
+"C2","50v 1uF","CP_Radial_D5.0mm_P2.00mm",101.600000,-78.740000,-90.000000,top
+"D1","LED","D_1206_3216Metric_Pad1.42x1.75mm_HandSolder",86.360000,-82.550000,180.000000,top
+"J1","Barrel_Jack_Switch","BarrelJack_Kycon_KLDX-0202-xC_Horizontal",96.450000,-75.400000,0.000000,top
+"J2","Detection coil","PinHeader_1x02_P2.54mm_Vertical",98.725000,-89.900000,90.000000,top
+"J3","External antenna","PinHeader_1x01_P2.54mm_Vertical",116.840000,-71.120000,0.000000,top
+"R2","1K","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",113.030000,-73.660000,0.000000,top
+"R3","220R","R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",86.360000,-86.360000,180.000000,top
+"RV1","10K","Potentiometer_Alps_RK09K_Single_Vertical",117.800000,-79.500000,0.000000,top
+"U1","74LS04","SOIC-14_3.9x8.7mm_P1.27mm",110.490000,-78.740000,90.000000,top
+"U2","L78L05_SOT89","SOT-89-3",96.520000,-85.090000,-90.000000,top
+"Y1","8.0 Mhz Crystal","Crystal_HC49-4H_Vertical",106.770000,-86.360000,0.000000,top
+"Y2","8.0 Mhz Crystal","Crystal_HC49-4H_Vertical",102.450000,-71.100000,0.000000,top
