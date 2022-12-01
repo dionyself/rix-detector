@@ -1258,8 +1258,8 @@
   (gr_arc (start 136 91.1) (mid 135.115056 93.186265) (end 133 94) (layer "Edge.Cuts") (width 0.1) (tstamp db04ab5d-5349-45a2-8055-a92152911582))
   (gr_arc (start 81 66.7) (mid 81.959174 64.786412) (end 83.95 64) (layer "Edge.Cuts") (width 0.1) (tstamp dfd9112b-9c8c-473e-bd32-b8d07787d642))
   (gr_arc (start 84 94) (mid 81.843035 93.085773) (end 81 90.9) (layer "Edge.Cuts") (width 0.1) (tstamp f880406c-58d5-45fc-b3db-9838f1df9d59))
-  (gr_text "RIX Detector\nv0.1.0-OH\nOpen hardware\nBy Dionys R.\n" (at 122 72) (layer "F.SilkS") (tstamp 015db00c-66dc-4346-879c-2a27f03e1562)
-    (effects (font (size 1 1) (thickness 0.125)) (justify left))
+  (gr_text "RIX Detector\nv0.1.0-OSH\nOpen Source hardware\nBy Dionys R.\n" (at 134 72) (layer "F.SilkS") (tstamp 015db00c-66dc-4346-879c-2a27f03e1562)
+    (effects (font (size 1 1) (thickness 0.125)) (justify right))
   )
 
   (segment (start 92.844888 89.855112) (end 93.5 89.2) (width 0.25) (layer "F.Cu") (net 1) (tstamp 09dca535-a907-4bdf-b927-d97fc0f35690))
